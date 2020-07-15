@@ -62,5 +62,5 @@ df_distance_km <- otuSummary::matrixConvert(mat_distance_km, vct_col_names)
 df_distance_km %>% nrow()
 
 # zipped up this is 50 mb
-setwd("/Users/markhatcher/Documents/new_ways_of_working/seifa_postcode/created_data")
+setwd("/Users/markhatcher/Documents/new_ways_of_working/seifa_postcode_zipped/created_data")
 write.csv(df_distance_km,'centroid_distance_km.csv')

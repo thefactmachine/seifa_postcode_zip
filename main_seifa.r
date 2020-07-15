@@ -32,7 +32,7 @@ library(tidyverse)
 # decile            dec
 # post area code    poa
 
-setwd("/Users/markhatcher/Documents/new_ways_of_working/seifa_postcode")
+setwd("/Users/markhatcher/Documents/new_ways_of_working/seifa_postcode_zipped")
 
 vct_names <- c("poa", "sed_indx", "sed_dec", "sead_indx", 
   "sead_dec", "er_indx", "er_dec", "eo_indx", "eo_dec", "population")
